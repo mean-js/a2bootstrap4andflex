@@ -1,0 +1,38 @@
+div.header{
+    min-height: 50px;
+    line-height: 40px;
+    color: white;
+    padding-left: 10px;
+}
+
+.bgimg {
+    background-image: url("assets/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.center-option-1 {
+    line-height: normal;
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+.center-option-2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center-option-3 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.center-option-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
