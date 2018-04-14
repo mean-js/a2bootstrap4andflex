@@ -5,6 +5,28 @@ div.header{
     padding-left: 10px;
 }
 
+.bgimg {
+    background-image: url("assets/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 div.fcontainer{
-    margin-top : 52px; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 50vh;
+}
+
+div.card{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 150px;;
+}
+
+div.fchilds{
+    height: 50px;
 }
