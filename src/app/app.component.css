@@ -5,6 +5,12 @@ div.header{
     padding-left: 10px;
 }
 
+.bgimg {
+    background-image: url("assets/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 .center-option-1 {
     line-height: normal;
     display: inline-block; 
