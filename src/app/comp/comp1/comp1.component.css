@@ -3,6 +3,7 @@ div.header{
     line-height: 40px;
     color: white;
     padding-left: 10px;
+    overflow: hidden;
 }
 
 .bgimg {

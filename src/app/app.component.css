@@ -1,0 +1,19 @@
+.fixtop{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+div.header{
+    min-height: 50px;
+    line-height: 40px;
+    color: white;
+    padding-left: 10px;
+
+    display: flex;
+
+    
+}
+
+div.flexchild, a.flexchild {
+    flex-basis: 100px;
+}

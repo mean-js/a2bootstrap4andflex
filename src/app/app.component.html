@@ -1,2 +1,14 @@
-<app-comp3></app-comp3>
+<div class="bg-secondary header fixtop" style="z-index: 100;">
+    <div class="flexchild">Header</div>
+    <div class="flexchild">LINK 2</div>
+    <div class="flexchild">LINK 3</div>
 
+    <a class="flexchild text-white" routerLink="2" routerLinkActive="active">LINK2</a>
+    <a class="flexchild text-white" routerLink="3" routerLinkActive="active">LINK3</a>
+</div>
+
+<router-outlet></router-outlet>
+
+<div class="fixed-bottom bg-secondary header">
+    Footer
+</div>
