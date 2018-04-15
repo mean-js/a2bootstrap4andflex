@@ -1,0 +1,11 @@
+.header {
+    height: 48px;
+}
+
+.cardflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 150px;
+}
